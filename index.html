@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/icons8-sun.svg" />
+    <link rel="icon" href="./assets/images/icons8-berserk-48.png" />
     <title>CV</title>
-
     <link rel="stylesheet" href="./style/style.css" />
   </head>
-
   <body>
     <header class="header">
       <div class="container">
@@ -24,28 +22,63 @@
         </div>
       </div>
     </header>
-
-    <main>
+    <!-- <div class="burgerOp">
+      <div class="burgerList">
+        <div class="close"></div>
+        <nav class="header__nav">
+          <a href="#home" class="nav__link">Home</a>
+          <a href="#aboutme" class="nav__link">About me</a>
+          <a href="#skills" class="nav__link">Skills</a>
+          <a href="#portfolio" class="nav__link">Portfolio</a>
+          <a href="#contacts" class="nav__link">Contacts</a>
+        </nav>
+      </div>
+    </div> -->
+    <main class="main">
       <section class="home" id="home">
         <div class="container">
           <div class="home__wrapper">
             <div class="home__description">
-              <h1 class="h-description__title">
-                Igor <br />
-                Danilov
-              </h1>
-              <p class="h-description__text">
-                Front-End Developer <br />
-                23 years old, Minsk
-              </p>
+              <div class="hh">
+                <h1 class="h-description__title">
+                  Igor <br />
+                  Danilov
+                </h1>
+                <p class="h-description__text">
+                  Front-End Developer <br />
+                  23 years old, Minsk
+                </p>
+              </div>
+              <div class="burger">
+                <img
+                  class="burgImg"
+                  src="./assets/images/Group 3.svg"
+                  alt="menu"
+                />
+              </div>
+              <div class="burgerOp">
+                <div class="burgerList">
+                  <div class="close"></div>
+                  <nav class="header__nav">
+                    <a href="#home" class="nav__link">Home</a>
+                    <a href="#aboutme" class="nav__link">About me</a>
+                    <a href="#skills" class="nav__link">Skills</a>
+                    <a href="#portfolio" class="nav__link">Portfolio</a>
+                    <a href="#contacts" class="nav__link">Contacts</a>
+                  </nav>
+                </div>
+              </div>
+
               <div class="h-description__lang">
                 <a href="#" class="lang__link">ru</a>
                 <p class="lang__solid">|</p>
-                <a href="#" class="lang__link active">eng(A-1)</a>
+                <a href="#" class="lang__link active">eng(A-2)</a>
               </div>
             </div>
 
-            <div class="home__bg"></div>
+            <div class="home__bg">
+              <img src="./assets/images/me.jpg" alt="Me" />
+            </div>
           </div>
         </div>
       </section>
@@ -62,11 +95,16 @@
               </p>
               <p>
                 I'm studying at courses "Front-End <br />
-                developer" in Rs school.
+                developer" in RS School.
               </p>
               <p>
                 Ready to implement excellent projects <br />
                 with wonderful people.
+              </p>
+              <p>
+                Education: <br />
+                BSATU(in progress, extramural studies) <br />
+                VSC(2017-2020)
               </p>
             </div>
           </div>
@@ -80,53 +118,57 @@
             <p class="skills__text">I work in such programs as</p>
             <div class="skills__programs">
               <div class="s-programs__desccription">
-                <img src="./assets/images/unnamed.png" alt="htmlLogo" />
-                <p>HTML</p>
-                <!-- <div class="s-description__stars">
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                </div> -->
-              </div>
-
-              <div class="s-programs__desccription">
-                <img src="./assets/images/unnamedjs.png" alt="jsLogo" />
-                <p>JS</p>
-                <!-- <div class="s-description__stars">
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span></span>
-                </div> -->
+                <img src="./assets/images/html.svg" alt="HTML" />
+                <p>HTML<br /></p>
               </div>
               <div class="s-programs__desccription">
-                <img src="./assets/images/unnamedcss.png" alt="cssLogo" />
+                <img src="./assets/images/cssicon.svg" alt="CSS" />
                 <p>CSS</p>
-                <!-- <div class="s-description__stars">
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span></span>
-                  <span></span>
-                </div> -->
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/jsicon.png" alt="JS" />
+                <p>Java Script</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img
+                  src="./assets/images/68747470733a2f2f6272616e646c6f676f732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032302f30392f72656163742d6c6f676f2e706e67.png"
+                  alt="react"
+                />
+                <p>React JS</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/sassicon.svg" alt="sass" />
+                <p>SASS</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/nodeicon.svg" alt="node" />
+                <p>NODE JS</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/git-original.svg" alt="Git" />
+                <p>Git</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/githuhicon.svg" alt="GitHub" />
+                <p>GitHub</p>
+              </div>
+              <div class="s-programs__desccription">
+                <img src="./assets/images/vsCodeIcon.svg" alt="vs" />
+                <p>VSCode</p>
               </div>
               <div class="s-programs__desccription">
                 <img src="./assets/images/figms.png" alt="figma" />
                 <p>Figma</p>
-                <!-- <div class="s-description__stars">
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span class="active"></span>
-                  <span></span>
-                </div> -->
               </div>
             </div>
           </div>
         </div>
+        <!-- <div class="certificate">
+          <h2 class="certText">Certificate</h2>
+          <a href="https://app.rs.school/certificate/vajr6ym1" target="_blank"
+            ><img src="./assets/images/sertificate.png" alt="sertificate"
+          /></a>
+        </div> -->
       </section>
 
       <section class="portfolio" id="portfolio">
@@ -134,21 +176,80 @@
           <div class="portfolio__wrapper">
             <h2 class="portfolio__title">Portfolio</h2>
             <div class="portfolio__description">
-              <div class="p-description__bg momentum"></div>
-              <img
-                class="imgMomen"
-                src="../CV/assets/images/Momentum.PNG"
-                alt=""
-              />
-              <a href="#">Momentum </a>
+              <div class="p-description__bg">
+                <a
+                  href="https://rolling-scopes-school.github.io/clou2dy-JSFEPRESCHOOL2022Q2/momentum/"
+                  target="_blank"
+                >
+                  <img
+                    class="momentum"
+                    src="./assets/images/momentum.png"
+                    alt="Momentum"
+                /></a>
+              </div>
+              <a
+                class="portfolioName"
+                href="https://rolling-scopes-school.github.io/clou2dy-JSFEPRESCHOOL2022Q2/momentum/"
+                target="_blank"
+                >Momentum</a
+              >
             </div>
             <div class="portfolio__description">
-              <div class="p-description__bg reebok"></div>
-              <a href="#">Reebok Store - Concept</a>
+              <div class="p-description__bg">
+                <a
+                  href="https://rolling-scopes-school.github.io/clou2dy-JSFEPRESCHOOL2022Q2/travel/"
+                  target="_blank"
+                >
+                  <img
+                    class="travel"
+                    src="./assets/images/trav4.png"
+                    alt="Travel"
+                  />
+                </a>
+              </div>
+              <a
+                class="portfolioName"
+                href="https://rolling-scopes-school.github.io/clou2dy-JSFEPRESCHOOL2022Q2/travel/"
+                target="_blank"
+                >Travel</a
+              >
             </div>
             <div class="portfolio__description">
-              <div class="p-description__bg braun"></div>
-              <a href="#">Braun Landing Page - Concept</a>
+              <div class="p-description__bg">
+                <a
+                  href="https://docskullka.github.io/Swipe-Nice/"
+                  target="_blank"
+                >
+                  <img
+                    class="miami"
+                    src="./assets/images/miami.png"
+                    alt="Miami"
+                  />
+                </a>
+              </div>
+              <a
+                class="portfolioName"
+                href="https://docskullka.github.io/Swipe-Nice/"
+                target="_blank"
+                >Miami</a
+              >
+            </div>
+            <div class="portfolio__description">
+              <div class="p-description__bg zoo">
+                <a
+                  href="https://rolling-scopes-school.github.io/clou2dy-JSFE2022Q3/online-zoo/ONLINE-ZOO/pages/main/index.html"
+                  target="_blank"
+                >
+                  <img class="zoo" src="./assets/images/zoo1.png" alt="Zoo" />
+                </a>
+              </div>
+              <a
+                class="portfolioName"
+                href="https://rolling-scopes-school.github.io/clou2dy-JSFE2022Q3/online-zoo/ONLINE-ZOO/pages/main/index.html"
+                target="_blank"
+                style="margin-top: 0px"
+                >Online-zoo</a
+              >
             </div>
           </div>
         </div>
@@ -163,17 +264,13 @@
             Want to know more or just chat? <br />
             You are welcome!
           </p>
-          <a
-            class="contacts__btn"
-            href="https://t.me/Igor_Danilovv"
-            target="_blank"
-          >
+          <a class="contacts__btn" href="https://t.me/CIou2Dy" target="_blank">
             <span> Send message </span>
           </a>
           <div class="contacts__links">
             <a
               class="c-links__social"
-              href="https://www.linkedin.com/home?originalSubdomain=ru"
+              href="https://www.linkedin.com/in/igor-danilov-714587254/"
               target="_blank"
             >
               <img
@@ -206,7 +303,7 @@
             </a>
             <a
               class="c-links__social"
-              href="https://t.me/Igor_Danilovv"
+              href="https://t.me/CIou2Dy"
               target="_blank"
             >
               <img
@@ -218,11 +315,11 @@
           </div>
           <p class="contacts__description">
             Like me on <br />
-            LinkedIn, Instagram, GitHub, Telegram
+            LinkedIn, GitHub, Telegram
           </p>
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
